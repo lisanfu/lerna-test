@@ -27,6 +27,7 @@
     "url": "https://github.com/lisanfu/lerna-test/issues"
   },
   "dependencies": {
-    "@lerna-test/cli": "^0.0.0"
+    "@lerna-test/cli": "^0.0.0",
+    "typescript": "^4.7.4"
   }
 }
