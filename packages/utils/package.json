@@ -1,0 +1,31 @@
+{
+  "name": "@lerna-test/utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "lifuyuan-cx <lifuyuan-cx@huafang.com>",
+  "homepage": "https://github.com/lisanfu/lerna-test#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisanfu/lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lisanfu/lerna-test/issues"
+  },
+  "dependencies": {
+    "@types/signale": "^1.4.4",
+    "signale": "^1.4.0",
+    "typescript": "^4.7.4"
+  }
+}
