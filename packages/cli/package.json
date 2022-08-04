@@ -18,9 +18,13 @@
     "url": "git+https://github.com/lisanfu/lerna-test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node ./lib/cli"
   },
   "bugs": {
     "url": "https://github.com/lisanfu/lerna-test/issues"
+  },
+  "dependencies": {
+    "@lerna-test/core": "^0.0.0"
   }
 }

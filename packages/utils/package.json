@@ -1,11 +1,11 @@
 {
-  "name": "@lerna-test/core",
+  "name": "@lerna-test/utils",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "lifuyuan-cx <lifuyuan-cx@huafang.com>",
   "homepage": "https://github.com/lisanfu/lerna-test#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lisanfu/lerna-test.git"
@@ -27,11 +24,7 @@
     "url": "https://github.com/lisanfu/lerna-test/issues"
   },
   "dependencies": {
-    "@lerna-test/cli": "^0.0.0",
-    "@lerna-test/utils": "^0.0.0",
-    "chalk": "2.4.2",
-    "download-git-repo": "^3.0.2",
-    "fs-extra": "^10.1.0",
-    "inquirer": "7.0.0"
+    "axios": "^0.27.2",
+    "ora": "^3.4.0"
   }
 }
