@@ -57,4 +57,6 @@
 ### 脚手架发布上线
 1. lerna version / bump version --->lerna changed 查看版本变更--->lerna diff 查看diff--->lerna publish 发布上线
 
+###简单搭建脚手架
+
 
