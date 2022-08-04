@@ -2,6 +2,6 @@
 
 const core = require('..');
 
-describe('core', () => {
+describe('@lerna-test/core', () => {
     it('needs tests');
 });

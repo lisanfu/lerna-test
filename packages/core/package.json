@@ -1,9 +1,9 @@
 {
-  "name": "core",
+  "name": "@lerna-test/core",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "lifuyuan-cx <lifuyuan-cx@huafang.com>",
-  "homepage": "http://\\",
+  "homepage": "https://github.com/lisanfu/lerna-test#readme",
   "license": "ISC",
   "main": "lib/core.js",
   "directories": {
@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lisanfu/lerna-test.git"
@@ -22,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/lisanfu/lerna-test/issues"
+  },
+  "dependencies": {
+    "@lerna-test/cli": "^0.0.0"
   }
 }

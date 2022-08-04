@@ -1,11 +1,11 @@
-# `core`
+# `@lerna-test/core`
 
 > TODO: description
 
 ## Usage
 
 ```
-const core = require('core');
+const core = require('@lerna-test/core');
 
 // TODO: DEMONSTRATE API
 ```
