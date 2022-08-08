@@ -28,6 +28,16 @@
   },
   "dependencies": {
     "@lerna-test/cli": "^0.0.0",
-    "typescript": "^4.7.4"
+    "axios": "^0.27.2",
+    "compare-versions": "^4.1.3",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.1.0",
+    "get": "^1.4.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.2",
+    "lodash.set": "^4.3.2",
+    "typescript": "^4.7.4",
+    "user-home": "^3.0.0"
   }
 }
